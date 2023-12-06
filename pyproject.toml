@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-for-data-analysis-pandas-and-numpy"
+version = "0.1.0"
+description = ""
+authors = ["Firstnapat <firstnapat@odds.team>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
